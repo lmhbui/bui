@@ -5,6 +5,8 @@
 <title>辣妈汇商家UI</title>
 <link rel="stylesheet" href="../dist/lmh.bui.min.css">
 <link rel="stylesheet" href="css/css.css">
+<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="ace-builds/src-min/ace.js"></script>
 </head>
 <body>
 <div class="doc-head">
@@ -38,8 +40,35 @@
             <div class="bui-title">
                 <span>css reset</span>
             </div>
-        </div>
+<div class="editor-css" style="height:350px; font-size: 16px;">@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,i,em,input,textarea,p,form,label,ul,ol,li,dl,dd,dt,img,br,button{margin:0;padding:0;}
+li{list-style:none;}
+img{border:none;}
+a{text-decoration:none;outline:none;}
+a:hover{text-decoration:none;}
+body{font-size:12px;}
+body,input,textarea,button{font-family:tahoma,arial,Hiragino Sans GB,WenQuanYi Micro Hei,'\5FAE\8F6F\96C5\9ED1','\5B8B\4F53',sans-serif;}
+i,em{font-style:normal;}
+b,em{font-weight:300;}
+button{outline:none;}
+textarea{overflow:auto;}
+html{_text-overflow:ellipsis;}
+
+body{background: #f7f8fa;}
+a{color: #333333;}
+</div>
     </div>
 </div>
+
+
+<script type="text/javascript">
+    $('.editor-css').each(function(){
+        var myEditor = $(this)[0];
+        var editor = ace.edit(myEditor);
+        editor.setTheme("ace/theme/monokai");
+        editor.getSession().setMode("ace/mode/css");
+        editor.getSession().setUseWrapMode(true);
+    });
+</script>
 </body>
 </html>
