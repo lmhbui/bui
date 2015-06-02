@@ -1,0 +1,38 @@
+.doc-head{
+    height: 60px;
+    line-height: 60px;
+    background: #ff73b2;
+    color: #fff;
+    padding: 0 20px;
+    font-size: 28px;
+}
+
+.doc-body{
+    border-left: 1px solid #e6e6e6;
+    min-height: 500px;
+}
+
+.doc-ul{}
+
+.doc-ul{
+    padding: 20px 0 0 20%;
+}
+
+.doc-ul li{
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 20px;
+    font-weight: 700;
+    padding: 0 0 0 15%;
+    background: #ffffff;
+}
+
+.doc-ul a{display: block; font-size: 14px; position: relative; }
+
+
+.doc-ul li.curr a,
+.doc-ul a:hover{color: #ff4a9b;}
+.doc-ul i{display: block; width: 13px; height: 42px; position: absolute; right: -13px; top: 0;
+    background: url(mu.png) no-repeat;
+}

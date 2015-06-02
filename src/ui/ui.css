@@ -1,0 +1,128 @@
+/*
+* @description:ui
+* @author:令狐冲
+* @update:令狐冲 (2015年6月1日 11:07:14)
+*/
+
+
+/*分页*/
+.page {}
+.page span {
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    display: block;
+    padding-right: 9px;
+}
+.page a {
+    border: 1px solid #e5e3e5;
+    text-align: center;
+    line-height: 32px;
+    color: #666;
+    background: #fff;
+    cursor: pointer;
+    display: block;
+    float: left;
+    margin-left: 5px;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+}
+.page a:hover, .page a.active {
+    border-color: #ff73b2;
+    text-decoration: none;
+    background: #ff73b2;
+    color: #fff;
+}
+
+
+/* 标题 */
+.warp-tt {
+  width: 940px;
+  height: 42px;
+  line-height: 42px;
+  border-bottom: 2px solid #efefef;
+  padding-top: 6px;
+}
+.warp-tt span {
+  border-bottom: 2px solid #ff73b2;
+  padding-bottom: 10px;
+}
+
+
+/* 按钮 */
+.btn{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 3px;
+    width: 90px;
+}
+.btn:hover,.btn-ico-s:hover,.btn-ico-m:hover,.btn-ico-l:hover{opacity: 0.85;filter: alpha(opacity=85);}
+
+.btn-ls{
+    line-height: 28px;
+}
+.btn-s{
+    line-height: 32px;
+}
+.btn-m{
+    width: 100px;
+    font-size: 16px;
+    line-height: 36px;
+}
+.btn-l{
+    width: 110px;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.btn-blue{background-color: #4cafeb;}
+.btn-red{background-color: #ff73b2;}
+
+.btn-ico-s,.btn-ico-m,.btn-ico-l{
+    display: inline-block;
+    color: #ffffff;
+    border-radius: 3px;
+    text-align: left;
+    width: auto;
+    padding-right: 10px;
+}
+.btn-ico-s i,.btn-ico-m i,.btn-ico-l i{
+    display: inline-block;
+    float: left;
+    border-radius: 3px;
+    background: url(img/btn-ico-1.png) no-repeat center center;
+}
+.btn-ico-s{
+    line-height: 28px;
+}
+.btn-ico-m{
+    line-height: 36px;
+    font-size: 16px;
+}
+.btn-ico-l{
+    line-height: 40px;
+    font-size: 18px;
+}
+.btn-ico-s i{
+    width: 28px;
+    height: 28px;
+}
+.btn-ico-m i{
+    width: 36px;
+    height: 36px;
+}
+.btn-ico-l i{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+

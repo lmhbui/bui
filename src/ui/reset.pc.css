@@ -1,0 +1,21 @@
+/*
+* @description:样式重置
+* @author:本相
+* @update:本相 (2015-02-11)
+*/
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,i,em,input,textarea,p,form,label,ul,ol,li,dl,dd,dt,img,br,button{margin:0;padding:0;}
+li{list-style:none;}
+img{border:none;}
+a{text-decoration:none;outline:none;}
+a:hover{text-decoration:none;}
+body{font-size:12px;}
+body,input,textarea,button{font-family:tahoma,arial,Hiragino Sans GB,WenQuanYi Micro Hei,'\5FAE\8F6F\96C5\9ED1','\5B8B\4F53',sans-serif;}
+i,em{font-style:normal;}
+b,em{font-weight:300;}
+button{outline:none;}
+textarea{overflow:auto;}
+html{_text-overflow:ellipsis;}
+
+body{background: #f7f8fa;}
+a{color: #333333;}
