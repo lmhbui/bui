@@ -21,11 +21,10 @@
 .doc-ul li{
     height: 40px;
     line-height: 40px;
-    border: 1px solid #e6e6e6;
-    margin-bottom: 15px;
+    border-bottom: 1px solid #e6e6e6;
     font-weight: 700;
     padding: 0 0 0 15%;
-    background: #ffffff;
+    
 }
 
 .doc-ul a{display: block; font-size: 14px; position: relative; }
@@ -33,6 +32,12 @@
 
 .doc-ul li.curr a,
 .doc-ul a:hover{color: #ff4a9b;}
-.doc-ul i{display: block; width: 13px; height: 42px; position: absolute; right: -13px; top: 0;
+
+.doc-ul li.curr{
+     border: 1px solid #e6e6e6;
+     background: #ffffff;
+}
+.doc-ul li.curr i{
+    display: block; width: 13px; height: 42px; position: absolute; right: -13px; top: 0;
     background: url(mu.png) no-repeat;
 }
