@@ -141,13 +141,13 @@ a {
 .tar {
   text-align: right;
 }
-.tac_i {
+.tac-i {
   text-align: center !important;
 }
-.tal_i {
+.tal-i {
   text-align: left !important;
 }
-.tar_i {
+.tar-i {
   text-align: right !important;
 }
 /* 块显示 */
@@ -278,6 +278,7 @@ a {
 .far {
   font-family: Arial, "微软雅黑";
 }
+
 /* 字体颜色 */
 .c-green {
   color: #26a96d;
