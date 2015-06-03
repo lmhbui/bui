@@ -1,68 +1,82 @@
+@import "02_config.less";
+@import "03_function.less";
 /* 按钮 */
-.btn{
+.bui-btn {
     display: inline-block;
     color: #ffffff;
-    font-size: 14px;
     text-align: center;
     border-radius: 3px;
-    width: 90px;
+    padding: 0 2em;
+    word-spacing: 0;
+    letter-spacing: 0;
+    overflow: hidden;
 }
-.btn:hover,.btn-ico-s:hover,.btn-ico-m:hover,.btn-ico-l:hover{opacity: 0.85;filter: alpha(opacity=85);}
 
-.btn-ls{
+/* 控制大小 */
+.bui-btn-m {
+    line-height: 24px;
+    height: 24px;
+    font-size: 12px;
+}
+
+.bui-btn-s {
     line-height: 28px;
-}
-.btn-s{
-    line-height: 32px;
-}
-.btn-m{
-    width: 100px;
-    font-size: 16px;
-    line-height: 36px;
-}
-.btn-l{
-    width: 110px;
-    font-size: 18px;
-    line-height: 40px;
-}
-
-.btn-blue{background-color: #4cafeb;}
-.btn-red{background-color: #ff73b2;}
-
-.btn-ico-s,.btn-ico-m,.btn-ico-l{
-    display: inline-block;
-    color: #ffffff;
-    border-radius: 3px;
-    text-align: left;
-    width: auto;
-    padding-right: 10px;
-}
-.btn-ico-s i,.btn-ico-m i,.btn-ico-l i{
-    display: inline-block;
-    float: left;
-    border-radius: 3px;
-    background: url(../img/btn-ico-1.png) no-repeat center center;
-}
-.btn-ico-s{
-    line-height: 28px;
-}
-.btn-ico-m{
-    line-height: 36px;
-    font-size: 16px;
-}
-.btn-ico-l{
-    line-height: 40px;
-    font-size: 18px;
-}
-.btn-ico-s i{
-    width: 28px;
     height: 28px;
+    font-size: 12px;
 }
-.btn-ico-m i{
-    width: 36px;
+
+.bui-btn-n {
+    font-size: 14px;
+    line-height: 32px;
+    height: 32px;
+}
+.bui-btn-l {
+    font-size: 16px;
+    line-height: 36px;
     height: 36px;
 }
-.btn-ico-l i{
-    width: 40px;
-    height: 40px;
+
+/* 控制颜色 */
+.bui-btn-pink{
+    background: @color_main;
+}
+
+.bui-btn-blue{
+    background: @color_blue;
+}
+
+.bui-btn:hover{
+    opacity: 0.9;
+}
+
+/* 按钮*/
+.bui-btn i{
+    display: inline-block;
+    .fl;
+    margin-right: 3px;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    background-image: url(../img/btn-ico-1.png);
+    background-repeat: no-repeat;
+}
+
+
+/* 图标 */
+.bui-btn-icon{
+    padding: 0 1em 0 0.5em;
+}
+.bui-btn-m i{
+    line-height: 24px;
+}
+.bui-btn-s i{
+    line-height: 28px;
+}
+.bui-btn-n i{
+    line-height: 32px;
+    margin-top:2px; 
+}
+.bui-btn-l i{
+    line-height: 36px;
+    margin-top:4px; 
 }

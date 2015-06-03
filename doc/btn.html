@@ -16,51 +16,86 @@
 <div class="row">
     <div class="col2">
         <ul class="doc-ul"> 
-            <li><a href="#"><i></i>重置</a></li> 
-            <li><a href="#"><i></i>类</a></li> 
-            <li><a href="#"><i></i>布局</a></li> 
-            <li><a href="#"><i></i>表格</a></li> 
-            <li class="curr"><a href="#"><i></i>按钮</a></li> 
-            <li><a href="#"><i></i>切换</a></li>
-            <li><a href="#"><i></i>分页</a></li>
-            <li><a href="#"><i></i>标题</a></li>
-            <li><a href="#"><i></i>颜色</a></li>
-            <li><a href="#"><i></i>弹窗</a></li> 
+            <li><a href="index.html"><i></i>重置</a></li> 
+            <li><a href="class.html"><i></i>类</a></li> 
+            <li><a href="grid.html"><i></i>布局</a></li> 
+            <li style="border-bottom: none;"><a href="table.html"><i></i>表格</a></li> 
+            <li class="curr"><a href="btn.html"><i></i>按钮</a></li> 
+            <li><a href="tab.html"><i></i>切换</a></li>
+            <li><a href="page.html"><i></i>分页</a></li>
+            <li><a href="title.html"><i></i>标题</a></li>
+            <li><a href="color.html"><i></i>颜色</a></li>
+            <li><a href="pop.html"><i></i>弹窗</a></li> 
         </ul>
     </div>
     <div class="col10">
         <div class="doc-body p20">
             <div class="bui-title">
-                <span>btn html</span>
+                <span>按钮大小</span>
             </div>
-<div class="p20">按钮的html结构</div>
     <div>
-    <a href="javascript:;" class="mr15 btn btn-s btn-red">提交</a>
-    <a href="javascript:;" class="mr15 btn btn-m btn-red">查询</a>
-    <a href="javascript:;" class="mr15 btn btn-l btn-red">查询</a>
-    <a href="javascript:;" class="mr15 btn btn-s btn-blue">重置</a>
-    <a href="javascript:;" class="mr15 btn btn-m btn-blue">重置</a>
-    <a href="javascript:;" class="mr15 btn btn-l btn-blue">重置</a>
-    <a href="javascript:;" class="mr15 btn-ico-s btn-red"><i class="btn-ico-add"></i>添加专场</a>
-    <a href="javascript:;" class="mr15 btn-ico-m btn-red"><i class="btn-ico-add"></i>添加专场</a>
-    <a href="javascript:;" class="mr15 btn-ico-l btn-red"><i class="btn-ico-add"></i>添加专场</a>
+
+    <div class="p20">
+        <!--
+            bui-btn-l (large)
+            bui-btn-n (normal)
+            bui-btn-s (small)
+            bui-btn-m (min)
+        -->
+        <a href="javascript:;" class="mr15 bui-btn bui-btn-l bui-btn-pink">提交</a>
+        <a href="javascript:;" class="mr15 bui-btn bui-btn-n bui-btn-pink">提交</a>
+        <a href="javascript:;" class="mr15 bui-btn bui-btn-s bui-btn-pink">提交</a>
+        <a href="javascript:;" class="mr15 bui-btn bui-btn-m bui-btn-pink">提交</a>
+    </div>
+    <pre class="editor-html" style="height:220px; font-size: 16px;">&lt;!--<br>
+bui-btn-l (large)<br>
+bui-btn-n (normal)<br>
+bui-btn-s (small)<br>
+bui-btn-m (min)<br>
+--&gt;<br>
+&lt;a href=&quot;javascript:;&quot; class=&quot;mr15 bui-btn bui-btn-l bui-btn-pink&quot;&gt;提交&lt;/a&gt;<br>
+&lt;a href=&quot;javascript:;&quot; class=&quot;mr15 bui-btn bui-btn-n bui-btn-pink&quot;&gt;提交&lt;/a&gt;<br>
+&lt;a href=&quot;javascript:;&quot; class=&quot;mr15 bui-btn bui-btn-s bui-btn-pink&quot;&gt;提交&lt;/a&gt;<br>
+&lt;a href=&quot;javascript:;&quot; class=&quot;mr15 bui-btn bui-btn-m bui-btn-pink&quot;&gt;提交&lt;/a&gt;</pre>
+
+
+    <div class="bui-title">
+        <span>按钮颜色</span>
+    </div>
+
+    <div class="p20">
+        <!--
+            bui-btn-pink (粉色)
+            bui-btn-blue (蓝色)
+        -->
+        <a href="javascript:;" class="mr15 bui-btn bui-btn-n bui-btn-pink">Pink</a>
+        <a href="javascript:;" class="mr15 bui-btn bui-btn-n bui-btn-blue">Blue</a>
+    </div>
+
+<pre class="editor-html" style="height:220px; font-size: 16px;">
+&lt;!--<br>
+bui-btn-pink (粉色)<br>
+bui-btn-blue (蓝色)<br>
+--&gt;<br>
+&lt;a href=&quot;javascript:;&quot; class=&quot;mr15 bui-btn bui-btn-n bui-btn-pink&quot;&gt;Pink&lt;/a&gt;<br>
+&lt;a href=&quot;javascript:;&quot; class=&quot;mr15 bui-btn bui-btn-n bui-btn-blue&quot;&gt;Blue&lt;/a&gt;
+</pre>
+
+    <div class="bui-title">
+        <span>按钮图标</span>
+    </div>
+    <div class="p20">
+        <a href="javascript:;" class="mr15 bui-btn bui-btn-icon bui-btn-s bui-btn-pink"><i class="btn-ico-add"></i>Add</a>
+        <a href="javascript:;" class="mr15 bui-btn bui-btn-icon bui-btn-s bui-btn-blue"><i class="btn-ico-add"></i>Add</a>
+        <a href="javascript:;" class="mr15 bui-btn bui-btn-icon bui-btn-n bui-btn-pink"><i class="btn-ico-add"></i>添加</a>
+        <a href="javascript:;" class="mr15 bui-btn bui-btn-icon bui-btn-n bui-btn-blue"><i class="btn-ico-add"></i>添加</a>
+        <a href="javascript:;" class="mr15 bui-btn bui-btn-icon bui-btn-l bui-btn-pink"><i class="btn-ico-add"></i>添加</a>
+        <a href="javascript:;" class="mr15 bui-btn bui-btn-icon bui-btn-l bui-btn-blue"><i class="btn-ico-add"></i>添加</a>
+    </div>
 </div>
 
-<div class="gap"></div>
-<pre class="editor-html" style="height:400px; font-size: 16px;">
 
-&lt;div&gt;<br />
-    &lt;a href=&quot;javascript:;&quot; class=&quot;mr15 btn btn-s btn-red&quot;&gt;提交&lt;/a&gt;<br />
-    &lt;a href=&quot;javascript:;&quot; class=&quot;mr15 btn btn-m btn-red&quot;&gt;查询&lt;/a&gt;<br />
-    &lt;a href=&quot;javascript:;&quot; class=&quot;mr15 btn btn-l btn-red&quot;&gt;查询&lt;/a&gt;<br />
-    &lt;a href=&quot;javascript:;&quot; class=&quot;mr15 btn btn-s btn-blue&quot;&gt;重置&lt;/a&gt;<br />
-    &lt;a href=&quot;javascript:;&quot; class=&quot;mr15 btn btn-m btn-blue&quot;&gt;重置&lt;/a&gt;<br />
-    &lt;a href=&quot;javascript:;&quot; class=&quot;mr15 btn btn-l btn-blue&quot;&gt;重置&lt;/a&gt;<br />
-    &lt;a href=&quot;javascript:;&quot; class=&quot;mr15 btn-ico-s btn-red&quot;&gt;&lt;i class=&quot;btn-ico-add&quot;&gt;&lt;/i&gt;添加专场&lt;/a&gt;<br />
-    &lt;a href=&quot;javascript:;&quot; class=&quot;mr15 btn-ico-m btn-red&quot;&gt;&lt;i class=&quot;btn-ico-add&quot;&gt;&lt;/i&gt;添加专场&lt;/a&gt;<br />
-    &lt;a href=&quot;javascript:;&quot; class=&quot;mr15 btn-ico-l btn-red&quot;&gt;&lt;i class=&quot;btn-ico-add&quot;&gt;&lt;/i&gt;添加专场&lt;/a&gt;<br />
-&lt;/div&gt;
-</pre>
+
 </div>
 </div>
 </body>
