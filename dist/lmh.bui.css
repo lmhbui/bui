@@ -412,6 +412,27 @@ a {
 .bui-table tr:hover {
   background-color: #fbfbfb;
 }
+.bui-table2 {
+  background: #fff;
+  width: 100%;
+  border: 1px solid #edeef0;
+}
+.bui-table2 tr {
+  height: 38px;
+  line-height: 38px;
+}
+.bui-table2 thead {
+  background-color: #f2f3f5;
+}
+.bui-table2 th {
+  font-weight: 700;
+}
+.bui-table2 tr:nth-child(even) {
+  background-color: #f7f8fa;
+}
+.bui-table2 td {
+  text-align: center;
+}
 
 /* 按钮 */
 .bui-btn {
