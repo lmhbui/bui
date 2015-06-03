@@ -1,21 +1,26 @@
+@import "02_config.less";
+@import "03_function.less";
+
 /* tab切换样式*/
-.tab-tit {
-    border-left: 1px solid #e6e6e6;
-    overflow: hidden;
-    border-bottom: 1px solid #ff73b2;
-    margin-bottom: 10px;
-}
-.tab-tit a {
-    display: block;
-    height: 36px;
-    line-height: 36px;
-    padding: 0 15px;
-    float: left;
-    border: 1px solid #e6e6e6;
-    border-left: none;
-    border-bottom: none;
-}
-.tab-tit .curr {
-    border: 1px solid #ff73b2;
-    border-bottom: none;
+.bui-tab {
+    border-left: 1px solid @color_border_dark;
+    border-bottom: 1px solid @color_main;
+    .f14;
+    .zoom;
+    a {
+        height: 36px;
+        line-height: 36px;
+        display: block;
+        padding: 0 15px;
+        .fl;
+        border-color: @color_border_dark;
+        border-width: 1px 1px 0 0;
+        border-style: solid;
+    }
+    .curr{
+        border: 1px solid @color_main;
+        color: @color_main;
+        border-bottom: none;
+        font-weight: 700; 
+    }
 }
