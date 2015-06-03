@@ -482,6 +482,9 @@ a {
   line-height: 36px;
   margin-top: 4px;
 }
+.bui-btn-ico-add {
+  background-position: 0 0;
+}
 
 /* 分页 */
 .page {
@@ -525,11 +528,13 @@ a {
   height: 42px;
   line-height: 42px;
   border-bottom: 2px solid #efefef;
+  color: #666;
 }
 .bui-title span {
   border-bottom: 2px solid #ff74b1;
   padding-bottom: 10px;
   font-size: 18px;
+  font-weight: 700;
 }
 
 /* tab切换样式*/
