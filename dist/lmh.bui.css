@@ -488,33 +488,40 @@ a {
 }
 
 /* 分页 */
-.page span {
-  float: left;
-  height: 38px;
-  line-height: 38px;
-  display: block;
-  padding-right: 9px;
+.page {
+  font-size: 0;
 }
+.page span {
+  padding: 0 10px;
+}
+.page i,
+.page a,
+.page span {
+  word-spacing: 0;
+  letter-spacing: 0;
+  font-size: 12px;
+  display: inline-block;
+}
+.page i,
 .page a {
-  border: 1px solid #e5e3e5;
   text-align: center;
-  line-height: 32px;
-  color: #666;
-  background: #fff;
-  cursor: pointer;
-  display: block;
-  float: left;
-  margin-left: 5px;
   width: 32px;
   height: 32px;
-  padding: 0;
+  line-height: 32px;
+  margin: 0 2px;
 }
-.page a:hover,
-.page a.active {
-  border-color: #ff73b2;
-  text-decoration: none;
-  background: #ff73b2;
+.page a {
+  border: 1px solid #efefef;
+  background: #fff;
+  cursor: pointer;
+}
+.page .curr {
+  background: #ff74b1;
+  border: 1px solid #ff74b1;
   color: #fff;
+}
+.page a:hover {
+  border-color: #d6d6d6;
 }
 
 /* 标题 */

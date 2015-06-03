@@ -1,31 +1,36 @@
+@import "02_config.less";
+@import "03_function.less";
+
 /* 分页 */
 .page {
+    font-size: 0;
     span {
-        float: left;
-        height: 38px;
-        line-height: 38px;
-        display: block;
-        padding-right: 9px;
+        padding: 0 10px;
     }
-    a {
-        border: 1px solid #e5e3e5;
-        text-align: center;
-        line-height: 32px;
-        color: #666;
-        background: #fff;
-        cursor: pointer;
-        display: block;
-        float: left;
-        margin-left: 5px;
+    i, a, span {
+        word-spacing: 0;
+        letter-spacing: 0;
+        .f12;
+        .dsib;
+    }
+    i, a {
+        .tac;
         width: 32px;
         height: 32px;
-        padding: 0;
+        line-height: 32px;
+        margin: 0 2px;
     }
-}
-
-.page a:hover, .page a.active {
-    border-color: #ff73b2;
-    text-decoration: none;
-    background: #ff73b2;
-    color: #fff;
+    a {
+        border: 1px solid @color_border;
+        background: #fff;
+        cursor: pointer;
+    }
+    .curr {
+        background: @color_main;
+        border: 1px solid @color_main;
+        color: #fff;
+    }
+    a:hover {
+        border-color: @color_border_dark;
+    }
 }

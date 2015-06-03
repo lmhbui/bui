@@ -16,16 +16,16 @@
 <div class="row">
     <div class="col2">
         <ul class="doc-ul"> 
-            <li class="curr"><a href="#"><i></i>重置</a></li> 
-            <li><a href="#"><i></i>类</a></li> 
-            <li><a href="#"><i></i>布局</a></li> 
-            <li><a href="#"><i></i>表格</a></li> 
-            <li><a href="#"><i></i>按钮</a></li> 
-            <li><a href="#"><i></i>切换</a></li>
-            <li><a href="#"><i></i>分页</a></li>
-            <li><a href="#"><i></i>标题</a></li>
-            <li><a href="#"><i></i>颜色</a></li>
-            <li><a href="#"><i></i>弹窗</a></li> 
+            <li><a href="index.html"><i></i>重置</a></li> 
+            <li><a href="class.html"><i></i>类</a></li> 
+            <li><a href="grid.html"><i></i>布局</a></li> 
+            <li><a href="table.html"><i></i>表格</a></li> 
+            <li><a href="btn.html"><i></i>按钮</a></li> 
+            <li style="border-bottom: none;"><a href="tab.html"><i></i>切换</a></li>
+            <li class="curr"><a href="page.html"><i></i>分页</a></li>
+            <li><a href="title.html"><i></i>标题</a></li>
+            <li><a href="color.html"><i></i>颜色</a></li>
+            <li><a href="pop.html"><i></i>弹窗</a></li> 
         </ul>
     </div>
     <div class="col10">
@@ -34,34 +34,28 @@
                 <span>page html</span>
             </div>
 <div class="p20">分页的html结构</div>
-    <div class="page clearfix">
+    <div class="page clearfix tac">
         <span>共<em>10654</em>条</span>
         <a>&lt;</a>
-        <span>
-            <a class="active">1</a>
-            <a href="?page=2">2</a>
-            <a href="?page=3">3</a>
-            <a style="border:none;">...</a>
-            <a href="?page=35">35</a>
-            <a href="?page=36">36</a>
-        </span>
-        <a href="http://www.lamahui.com?page=2" rel="next">&gt;</a>
+        <a href="javascript:;"class="curr">1</a>
+        <a href="?page=2">2</a>
+        <a href="?page=3">3</a>
+        <i>...</i>
+        <a href="?page=35">35</a>
+        <a href="?page=36">36</a>
+        <a href="?page=2">&gt;</a>
     </div>
-<pre class="editor-html" style="height:400px; font-size: 16px;">
-&lt;div class=&quot;page clearfix&quot;&gt;<br>
+<pre class="editor-html" style="height:400px; font-size: 16px;">&lt;div class=&quot;page clearfix tac&quot;&gt;<br>
     &lt;span&gt;共&lt;em&gt;10654&lt;/em&gt;条&lt;/span&gt;<br>
     &lt;a&gt;&amp;lt;&lt;/a&gt;<br>
-    &lt;span&gt;<br>
-    &lt;a class=&quot;active&quot;&gt;1&lt;/a&gt;<br>
+    &lt;a href=&quot;javascript:;&quot;class=&quot;curr&quot;&gt;1&lt;/a&gt;<br>
     &lt;a href=&quot;?page=2&quot;&gt;2&lt;/a&gt;<br>
     &lt;a href=&quot;?page=3&quot;&gt;3&lt;/a&gt;<br>
-    &lt;a style=&quot;border:none;&quot;&gt;...&lt;/a&gt;<br>
+    &lt;i&gt;...&lt;/i&gt;<br>
     &lt;a href=&quot;?page=35&quot;&gt;35&lt;/a&gt;<br>
     &lt;a href=&quot;?page=36&quot;&gt;36&lt;/a&gt;<br>
-    &lt;/span&gt;<br>
-    &lt;a href=&quot;http://www.lamahui.com?page=2&quot; rel=&quot;next&quot;&gt;&amp;gt;&lt;/a&gt;<br>
-&lt;/div&gt;
-</pre>
+    &lt;a href=&quot;?page=2&quot;&gt;&amp;gt;&lt;/a&gt;<br>
+&lt;/div&gt;</pre>
 </div>
 </div>
 </body>
