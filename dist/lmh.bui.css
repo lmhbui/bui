@@ -61,8 +61,13 @@ button {
 textarea {
   overflow: auto;
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 html {
-  _text-overflow: ellipsis;
+  text-overflow: ellipsis;
 }
 body {
   background: #f7f8fa;
@@ -135,6 +140,15 @@ a {
 }
 .tar {
   text-align: right;
+}
+.tac_i {
+  text-align: center !important;
+}
+.tal_i {
+  text-align: left !important;
+}
+.tar_i {
+  text-align: right !important;
 }
 /* 块显示 */
 .dsb {
@@ -265,37 +279,36 @@ a {
   font-family: Arial, "微软雅黑";
 }
 /* 字体颜色 */
-.fgreen {
+.c-green {
   color: #26a96d;
 }
-.fred {
-  color: #f01048;
+.c-pink {
+  color: #ff499f;
 }
-.fccc {
-  color: #cccccc;
+.c-red {
+  color: red;
 }
-.f333 {
-  color: #333333;
+.c-ccc {
+  color: #ccc;
 }
-.f666 {
-  color: #666666;
+.c-333 {
+  color: #333;
 }
-.f999 {
-  color: #999999;
+.c-666 {
+  color: #666;
 }
-.w1000 {
-  width: 1000px;
-  margin: auto;
-}
-.bw1000 {
-  width: 998px;
-  margin: auto;
+.c-999 {
+  color: #999;
 }
 /* 蓝色连接 */
-.blue-a {
+.a-blue {
   color: #3381cc;
 }
-.blue-a:hover {
+.a-blue:hover {
+  text-decoration: underline;
+}
+/* 粉色连接 */
+.a-pink:hover {
   text-decoration: underline;
 }
 
@@ -351,6 +364,14 @@ a {
 .col12 {
   float: left;
 }
+.w1000 {
+  width: 1000px;
+  margin: auto;
+}
+.bw1000 {
+  width: 998px;
+  margin: auto;
+}
 .row {
   clear: both;
 }
@@ -362,14 +383,11 @@ a {
 }
 
 /* 表格基本样式*/
-.table {
+.bui-table {
   border: 1px solid #e3e4e6;
-  border-bottom: none;
-  width: 100%;
-  border-collapse: collapse;
-  border-spacing: 0;
+  background: #fff;
 }
-.table th {
+.bui-table th {
   height: 45px;
   line-height: 45px;
   text-align: center;
@@ -378,15 +396,14 @@ a {
   font-weight: normal;
   border-bottom: 1px solid #f0f0f0;
 }
-.table td {
+.bui-table td {
   text-align: center;
   padding: 10px 0;
   font-size: 13px;
-  color: #333;
   border-bottom: 1px solid #f0f0f0;
 }
-.table tr:hover {
-  background-color: #f7f8fa;
+.bui-table tr:hover {
+  background-color: #fbfbfb;
 }
 
 /* 按钮 */

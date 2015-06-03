@@ -16,10 +16,10 @@
 <div class="row">
     <div class="col2">
         <ul class="doc-ul"> 
-            <li class="curr"><a href="#"><i></i>重置</a></li> 
+            <li><a href="#"><i></i>重置</a></li> 
             <li><a href="#"><i></i>类</a></li> 
             <li><a href="#"><i></i>布局</a></li> 
-            <li><a href="#"><i></i>表格</a></li> 
+            <li class="curr"><a href="#"><i></i>表格</a></li> 
             <li><a href="#"><i></i>按钮</a></li> 
             <li><a href="#"><i></i>切换</a></li>
             <li><a href="#"><i></i>分页</a></li>
@@ -33,8 +33,6 @@
             <div class="bui-title">
                 <span>table html</span>
             </div>
-<div class="p20">table表头字体样式设置，border样式，table的hover样式</div>
-
 <div class="demo">
     <table class="bui-table">
         <thead>
@@ -49,22 +47,22 @@
         </thead>
         <tbody>
             <tr>
-                <td>
-                <a href="" class="fl dsb gds-img">
-                <img src="http://img03.lamahui.com/static/images/2014/09/21/e6bb2c61c9376b044e3765768d8ee3567350.jpg" width="60" height="60" alt=""></a>
-                <div class="gds-info fl"><em>ID：4588922006924</em><a href="" class="dsb fl"><i class="daogou">导购</i> 开心兔宝宝帆布鞋男童女童布鞋秋婴儿学步..</a>
-                </div>
+                <td class="tal_i">
+                <a href="#">
+                <img src="http://img03.lamahui.com/static/images/2014/09/21/e6bb2c61c9376b044e3765768d8ee3567350.jpg" width="60" height="60" alt="" class="fl mr10 ml10" /></a>
+                <span class="c-999">ID：4588922006924</span><br/>
+                <a href="#">开心兔宝宝帆布鞋男童女童布鞋秋婴儿学步..</a>
                 </td>
-                <td class="pink-td">46.90</td>
+                <td><span class="c-pink f14">46.90</span></td>
                 <td>240</td>
                 <td>2014-10-16</td>
                 <td width="90">2014-10-16至2014-10-19</td>
                 <td>10%</td>
                 <td>未提交</td>
-                <td class="edit-td">
-                <a href="" >查看</a>
-                <a href="" >编辑</a>
-                <a href="javascript:;">删除</a>
+                <td>
+                <a href="#" class="a-blue">查看</a>
+                <a href="#" class="a-blue">编辑</a>
+                <a href="#" class="a-blue">删除</a>
                 </td>
             </tr>
         </tbody>
@@ -72,45 +70,39 @@
 </div>
 
 
-<pre class="editor-html" style="height:400px; font-size: 16px;">
-<p> &lt;table class=&quot;bui-table&quot;&gt;<br>
+<pre class="editor-html" style="height:680px; font-size: 16px;">&lt;table class=&quot;bui-table&quot;&gt;<br>
     &lt;thead&gt;<br>
-    &lt;th&gt;商品信息&lt;/th&gt;<br>
-    &lt;th&gt;提报价&lt;/th&gt;<br>
-    &lt;th&gt;库存&lt;/th&gt;<br>
-    &lt;th&gt;报名时间&lt;/th&gt;<br>
-    &lt;th&gt;活动时间&lt;/th&gt;<br>
-    &lt;th&gt;佣金&lt;/th&gt;<br>
-    &lt;th&gt;商品状态&lt;/th&gt;<br>
-    &lt;th&gt;操作&lt;/th&gt;<br>
-  &lt;/thead&gt;<br>
-  &lt;tbody&gt;<br>
-    &lt;tr&gt;<br>
-    &lt;td&gt;<br>
-    &lt;a href=&quot;&quot; class=&quot;fl dsb gds-img&quot;&gt;<br>
-    &lt;img src=&quot;http://img03.lamahui.com/static/images/2014/09/21/e6bb2c61c9376b044e3765768d8ee3567350.jpg&quot; width=&quot;60&quot; height=&quot;60&quot; alt=&quot;&quot;&gt;&lt;/a&gt;<br>
-    &lt;div class=&quot;gds-info fl&quot;&gt;&lt;em&gt;ID：4588922006924&lt;/em&gt;&lt;a href=&quot;&quot; class=&quot;dsb fl&quot;&gt;&lt;i class=&quot;daogou&quot;&gt;导购&lt;/i&gt; 开心兔宝宝帆布鞋男童女童布鞋秋婴儿学步..&lt;/a&gt;<br>
-    &lt;/div&gt;<br>
-    &lt;/td&gt;<br>
-    &lt;td class=&quot;pink-td&quot;&gt;46.90&lt;/td&gt;<br>
-    &lt;td&gt;240&lt;/td&gt;<br>
-    &lt;td&gt;2014-10-16&lt;/td&gt;<br>
-    &lt;td width=&quot;90&quot;&gt;2014-10-16至2014-10-19&lt;/td&gt;<br>
-    &lt;td&gt;10%&lt;/td&gt;<br>
-    &lt;td&gt;未提交&lt;/td&gt;<br>
-    &lt;td class=&quot;edit-td&quot;&gt;<br>
-    &lt;a href=&quot;&quot; &gt;查看&lt;/a&gt;<br>
-    &lt;a href=&quot;&quot; &gt;编辑&lt;/a&gt;<br>
-    &lt;a href=&quot;javascript:;&quot;&gt;删除&lt;/a&gt;<br>
-    &lt;/td&gt;<br>
-    &lt;/tr&gt;<br>
-<p> &lt;!-- 空的状态  --&gt;<br>
-    &lt;tr&gt;<br>
-  &lt;td colspan=&quot;8&quot;&gt;无商品状态&lt;/td&gt;<br>
-  &lt;/tr&gt;<br>
-  &lt;/tbody&gt;<br>
-  &lt;/table&gt;</p>
-</pre>
+        &lt;th&gt;商品信息&lt;/th&gt;<br>
+        &lt;th&gt;提报价&lt;/th&gt;<br>
+        &lt;th&gt;库存&lt;/th&gt;<br>
+        &lt;th&gt;报名时间&lt;/th&gt;<br>
+        &lt;th&gt;活动时间&lt;/th&gt;<br>
+        &lt;th&gt;佣金&lt;/th&gt;<br>
+        &lt;th&gt;商品状态&lt;/th&gt;<br>
+        &lt;th&gt;操作&lt;/th&gt;<br>
+    &lt;/thead&gt;<br>
+    &lt;tbody&gt;<br>
+        &lt;tr&gt;<br>
+        &lt;td class=&quot;tal_i&quot;&gt;<br>
+        &lt;a href=&quot;#&quot;&gt;<br>
+        &lt;img src=&quot;http://img03.lamahui.com/static/images/2014/09/21/e6bb2c61c9376b044e3765768d8ee3567350.jpg&quot; width=&quot;60&quot; height=&quot;60&quot; alt=&quot;&quot; class=&quot;fl mr10 ml10&quot; /&gt;&lt;/a&gt;<br>
+        &lt;span class=&quot;c-999&quot;&gt;ID：4588922006924&lt;/span&gt;&lt;br/&gt;<br>
+        &lt;a href=&quot;#&quot;&gt;开心兔宝宝帆布鞋男童女童布鞋秋婴儿学步..&lt;/a&gt;<br>
+        &lt;/td&gt;<br>
+        &lt;td&gt;&lt;span class=&quot;c-pink f14&quot;&gt;46.90&lt;/span&gt;&lt;/td&gt;<br>
+        &lt;td&gt;240&lt;/td&gt;<br>
+        &lt;td&gt;2014-10-16&lt;/td&gt;<br>
+        &lt;td width=&quot;90&quot;&gt;2014-10-16至2014-10-19&lt;/td&gt;<br>
+        &lt;td&gt;10%&lt;/td&gt;<br>
+        &lt;td&gt;未提交&lt;/td&gt;<br>
+        &lt;td&gt;<br>
+        &lt;a href=&quot;#&quot; class=&quot;a-blue&quot;&gt;查看&lt;/a&gt;<br>
+        &lt;a href=&quot;#&quot; class=&quot;a-blue&quot;&gt;编辑&lt;/a&gt;<br>
+        &lt;a href=&quot;#&quot; class=&quot;a-blue&quot;&gt;删除&lt;/a&gt;<br>
+        &lt;/td&gt;<br>
+        &lt;/tr&gt;<br>
+    &lt;/tbody&gt;<br>
+&lt;/table&gt;</pre>
 </div>
 </div>
 </body>

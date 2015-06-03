@@ -1,30 +1,20 @@
 $(function(){
     $('.editor-css').each(function(){
-        var myEditor = $(this)[0];
-        var editor = ace.edit(myEditor);
-        editor.setTheme("ace/theme/monokai");
-        editor.getSession().setMode("ace/mode/css");
-        editor.getSession().setUseWrapMode(true);
+        editFunc($(this), "ace/mode/css");
     });
     $('.editor-js').each(function(){
-        var myEditor = $(this)[0];
-        var editor = ace.edit(myEditor);
-        editor.setTheme("ace/theme/monokai");
-        editor.getSession().setMode("ace/mode/javascript");
-        editor.getSession().setUseWrapMode(true);
+        editFunc($(this), "ace/mode/javascript");
     });
      $('.editor-html').each(function(){
-        var myEditor = $(this)[0];
-        var editor = ace.edit(myEditor);
-        editor.session.setMode("ace/mode/html");
-        editor.setTheme("ace/theme/monokai");
-        // editor.getSession().setUseWrapMode(true);
-        // 
-        editor.setOptions({
-            enableBasicAutocompletion: true,
-            enableSnippets: true,
-            enableLiveAutocompletion: false
-        });
+        editFunc($(this), "ace/mode/html");
     });
-    
+
+
+    function editFunc(my, type){
+        var myEditor = my[0];
+        var editor = ace.edit(myEditor);
+        editor.session.setMode(type);
+        editor.setTheme("ace/theme/monokai");
+        editor.getSession().setUseWrapMode(true);
+    }
 });
