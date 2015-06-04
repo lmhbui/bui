@@ -374,10 +374,14 @@ a {
 .w1000 {
   width: 1000px;
   margin: auto;
+  z-index: 2;
+  position: relative;
 }
 .bw1000 {
   width: 998px;
   margin: auto;
+  z-index: 2;
+  position: relative;
 }
 .row {
   clear: both;
@@ -639,6 +643,7 @@ a {
   background: #fd44a1;
   text-align: center;
   position: relative;
+  z-index: 1;
 }
 .p-shank,
 .p-shank a {
@@ -656,17 +661,6 @@ a {
   color: #898389;
 }
 /* 底部背景图 */
-.fc-foot-bg-mark {
-  width: 100px;
-  height: 156px;
-  position: absolute;
-  background: url(http://b2cs.lamahui.com/2.0/img/public/foot-mark.gif?01) no-repeat 0 0;
-  text-indent: -9999px;
-  left: 50%;
-  top: -317px;
-  margin-left: -50px;
-  z-index: 2;
-}
 .fc-foot-bg {
   width: 100%;
   height: 456px;
