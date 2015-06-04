@@ -24,6 +24,14 @@ module.exports = function(grunt) {
             }
         },
 
+        uglify: {
+          my_target: {
+            files: {
+              'dist/lmh.bui.min.js': ['js/*.js']
+            }
+          }
+        },
+
         cssmin: {
           options: {
             shorthandCompacting: false,
@@ -41,7 +49,9 @@ module.exports = function(grunt) {
     });
 
     grunt.loadTasks('./node_modules/grunt-contrib-watch/tasks');
-     grunt.loadTasks('./node_modules/grunt-contrib-cssmin/tasks');
+    grunt.loadTasks('./node_modules/grunt-contrib-cssmin/tasks');
     grunt.loadTasks('./node_modules/grunt-contrib-less/tasks');
+    grunt.loadTasks('./node_modules/grunt-contrib-uglify/tasks');
     grunt.registerTask('default', ['watch']);
+    grunt.registerTask('js', ['uglify']);
 };

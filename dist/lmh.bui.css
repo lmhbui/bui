@@ -611,6 +611,18 @@ a {
 }
 
 
+.row-form {
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+input.bui-input {
+  border: 1px solid #e6e6e6;
+  height: 28px;
+  line-height: 28px;
+  width: 88%;
+  padding: 0 5px;
+}
+
 /* 底部帮助*/
 .p-help {
   padding-top: 127px;
