@@ -392,6 +392,15 @@ a {
   clear: both;
   height: 0;
 }
+.box {
+  width: 948px;
+  margin: auto;
+  z-index: 2;
+  position: relative;
+  border: 1px solid #efefef;
+  background-color: #fff;
+  padding: 25px;
+}
 
 /* 表格基本样式*/
 .bui-table {
@@ -564,6 +573,16 @@ a {
   font-size: 18px;
   font-weight: 700;
 }
+.bui-title2 {
+  height: 32px;
+  line-height: 32px;
+  padding: 0 0 8px 0;
+}
+.bui-title2 strong {
+  font-size: 18px;
+  color: #666666;
+  font-weight: 300;
+}
 
 /* tab切换样式*/
 .bui-tab {
@@ -594,7 +613,7 @@ a {
 
 /* 底部帮助*/
 .p-help {
-  padding-top: 27px;
+  padding-top: 127px;
   position: relative;
   z-index: 2;
   height: 318px;
@@ -733,7 +752,7 @@ a {
 }
 .head-logo {
   height: 70px;
-  border-bottom: 3px solid #ff73b2;
+  overflow: hidden;
   background-color: #ffffff;
 }
 .head-list {
@@ -764,21 +783,25 @@ a {
   color: #999999;
   padding: 0 15px;
 }
-.det-menu {
+.menu {
   background-color: #ff73b2;
   font-size: 14px;
   height: 32px;
   line-height: 32px;
-  padding-left: 30px;
-  margin-top: -3px;
 }
-.det-menu a {
+.menu a {
   color: #fff;
   padding: 0 18px;
   display: inline-block;
   float: left;
 }
-.det-menu a:hover,
-.det-menu a.select {
+.menu a:hover,
+.menu a.curr {
   background-color: #ff4a9b;
+}
+.menu-index {
+  height: 3px;
+  font-size: 0;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #ff73b2;
 }

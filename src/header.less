@@ -35,7 +35,7 @@
 }
 .head-logo{
     height: 70px;
-    border-bottom: 3px solid #ff73b2;
+    overflow: hidden;
     background-color: #ffffff;
 }
 .head-list{
@@ -62,20 +62,25 @@
     color: #999999;
     padding: 0 15px;
 }
-.det-menu{
+.menu{
     background-color: #ff73b2;
     font-size: 14px;
     height: 32px;
     line-height: 32px;
-    padding-left: 30px;
-    margin-top: -3px;
 }
-.det-menu a{
+.menu a{
     color: #fff;
     padding:0 18px;
     display: inline-block;
     float: left;
 }
-.det-menu a:hover,.det-menu a.select{
+.menu a:hover,.menu a.curr{
     background-color: #ff4a9b;
+}
+
+.menu-index{
+    height: 3px;
+    font-size: 0;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #ff73b2; 
 }
