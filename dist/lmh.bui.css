@@ -70,7 +70,7 @@ html {
   text-overflow: ellipsis;
 }
 body {
-  background: #f7f8fa;
+  background: #f7f7f7;
 }
 a {
   color: #333333;
@@ -588,11 +588,6 @@ a {
 }
 
 
-/*  
-* @description: 样式重置  
-* @author: 本相
-* @update: 本相 (2014-08-19)  
-*/
 /* 底部帮助*/
 .p-help {
   padding-top: 27px;
@@ -644,7 +639,6 @@ a {
   background: #fd44a1;
   text-align: center;
   position: relative;
-  z-index: -1;
 }
 .p-shank,
 .p-shank a {
