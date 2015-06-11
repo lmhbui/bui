@@ -57,6 +57,8 @@ em {
 }
 button {
   outline: none;
+  border: none;
+  cursor: pointer;
 }
 textarea {
   overflow: auto;
@@ -318,6 +320,16 @@ a {
 .a-pink:hover {
   text-decoration: underline;
 }
+/* 红色连接 */
+.a-red {
+  color: red;
+}
+.a-red:hover {
+  text-decoration: underline;
+}
+label.error {
+  color: red;
+}
 
 
 /* grid */
@@ -393,13 +405,13 @@ a {
   height: 0;
 }
 .box {
-  width: 948px;
+  width: 958px;
   margin: auto;
   z-index: 2;
   position: relative;
   border: 1px solid #efefef;
   background-color: #fff;
-  padding: 25px;
+  padding: 20px;
 }
 
 /* 表格基本样式*/
@@ -485,6 +497,9 @@ a {
 }
 .bui-btn-blue {
   background: #4cafeb;
+}
+.bui-btn-green {
+  background: #68bd0e;
 }
 .bui-btn:hover {
   opacity: 0.9;
@@ -624,6 +639,31 @@ input.bui-input {
 .validate-msg {
   height: 22px;
   line-height: 18px;
+}
+select.bui-select {
+  border: 1px solid #e6e6e6;
+  height: 28px;
+  line-height: 28px;
+  width: 88%;
+}
+input.w110 {
+  width: 110px;
+}
+select.w120 {
+  width: 120px;
+}
+.form-row {
+  clear: both;
+}
+.form-sub {
+  float: left;
+  width: 100px;
+  text-align: right;
+  padding: 10px 20px 10px 10px;
+}
+.form-nav {
+  float: left;
+  padding: 10px 0 10px 10px;
 }
 
 /* 底部帮助*/
