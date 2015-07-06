@@ -1,0 +1,45 @@
+@charset "utf-8";
+/*
+  ��ʾ��CSS ��ʽֻ�����޸���ɫ���ԣ���ͼƬ�ĵ�ַ��ͼƬ��СҪ��Ĭ�ϵ�һ�£���border:dotted solid double dashed
+*/
+*:focus {outline: none;}
+/* fade */
+.jbox-fade{background-color:#000000;}
+/* drag */
+.jbox-drag{border:1px dashed #f54e6a;}
+/* jbox */
+div.jbox {padding:0px;border:none;font-size:12px;}
+/* border */
+div.jbox .jbox-border{filter:alpha(opacity=20);-moz-opacity:0.2;opacity:0.2; border-radius: 2px;}
+/* container */
+div.jbox .jbox-container{background-color:#ffffff;border-radius: 2px;}
+/* title-panel */
+div.jbox .jbox-title-panel{background: #ff74b1;border-bottom:1px solid #eeeeee;border-top-left-radius: 6px;
+border-top-right-radius: 6px;}
+div.jbox .jbox-title{color:#fff; font-size:14px; }
+div.jbox .jbox-title-icon{}
+div.jbox .jbox-close,div.jbox .jbox-close-hover{background:url(../img/close.gif) no-repeat scroll 0px 0px transparent;}
+div.jbox .jbox-close-hover{background-position:0px 0;}
+/* content */
+div.jbox .jbox-content{min-height:24px;line-height:18px;color:#555555;font-size:14px;padding-left:5px;}
+div.jbox .jbox-content-loading{background-color:#E6E6E6;}
+div.jbox .jbox-content-loading-image{background:url(../img/jbox-content-loading.gif) no-repeat bottom center;}
+/* button-panel */
+/*div.jbox .jbox-button-panel{border-top:1px solid #CCCCCC;background-color: #EEEEEE;}*/
+div.jbox .jbox-bottom-text{text-indent:10px;color:#444444;}
+div.jbox .jbox-button{background-color: #cccccc;color: #ffffff;font-weight: bold;border: none;border-radius:3px 3px 3px 3px;margin:1px 7px 0px 0px;height:26px;cursor:pointer;}
+div.jbox .jbox-button-focus{background: #ff74b1;color: #ffffff;border: none;font-weight: bold;}
+/*div.jbox .jbox-button-hover{background-position:0px -20px;color:#666666;}*/
+div.jbox .jbox-button-active{background-position:0px -40px;}
+div.jbox-warning .jbox .jbox-button-panel{background-color: #FFFFFF;}
+/* tip-color */
+div.jbox .jbox-tip-color{background-color:#f54e6a;border-color:#f54e6a;border-radius:3px 3px 3px 3px;color:#ffffff;}
+/* icons */
+div.jbox span.jbox-icon{background:url(../img/jbox-icons.png) no-repeat scroll 0 center transparent;_background:url(../img/jbox-icons-ie6.gif) no-repeat scroll 0 0 transparent;}
+div.jbox span.jbox-icon-info {background-position:0 0;}
+div.jbox span.jbox-icon-question {background-position:-36px 0;}
+div.jbox span.jbox-icon-success {background-position:-72px 0;}
+div.jbox span.jbox-icon-warning {background-position:-108px 0;}
+div.jbox span.jbox-icon-error {background-position:-144px 0;}
+div.jbox span.jbox-icon-none {display: none; overflow:hidden;}
+div.jbox span.jbox-icon-loading {background:url(../img/jbox-loading1.gif) no-repeat scroll 0 0 transparent;}

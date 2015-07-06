@@ -1,6 +1,7 @@
 .row-form{line-height: 30px;}
 
-input.bui-input{border:1px solid #e6e6e6; height: 28px; line-height: 28px; width: 88%; padding: 0 5px;}
+input.bui-input{border:1px solid #ddd; height: 28px; line-height: 28px; width: 88%; padding: 0 5px;}
+textarea.bui-textarea{border:1px solid #ddd; padding: 0 5px;line-height: 28px;}
 .validate-msg{height: 22px; line-height: 18px;}
 
 
@@ -9,16 +10,126 @@ select.bui-select{border:1px solid #e6e6e6; height: 28px; line-height: 28px; wid
 input.w110{width: 110px;}
 select.w120{width: 120px;}
 
-.form-row{
-    clear: both;
-}
+.form-row{clear: both; border:1px solid #fff;}
 .form-sub{
     float: left;
     width: 100px;
     text-align: right;
+    line-height: 22px;
     padding: 10px 20px 10px 10px;
 }
 .form-nav{
     float: left;
     padding: 10px 0 10px 10px;
+    position: relative;
+    color: #666;
+    line-height: 22px;
+}
+
+.form-nav label input[type=checkbox] {
+    position: relative;
+    top: 2px;
+    margin-right: 2px;
+}
+
+input[type=radio] {
+    height: 16px;
+    position: relative;
+    top: 3px;
+    width: 20px;
+}
+
+.label-group label{
+    padding: 0 10px 0 0;
+}
+
+/* 验证css */
+.Validform_error{
+    background-color: #ffefee;
+}
+
+.Validform_wrong {
+    color: red;
+    padding-left: 20px;
+    white-space: nowrap;
+    background: url(../img/error.png) no-repeat left center;
+}
+.Validform_right {
+    display: none;
+}
+
+/* 图片上传按钮 */
+.upload{
+    border: 1px solid red;
+    display: block;
+    height: 38px;
+    text-indent: -9999px;
+    cursor: pointer;
+    line-height: 38px;
+    width: 153px;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.upload-div{
+    height: 45px;
+    background: url(../img/up-img.gif) no-repeat;
+}
+
+.form-submit-bar{
+    padding: 20px;
+    border-top: 1px solid #efefef;
+    margin-top:30px; 
+}
+
+.chaday{
+    padding: 0 5px;
+    height: 26px;
+    line-height: 26px;
+    width: 120px;
+    border: 1px solid #e6e6e6;
+    color: #666;
+    background: #fff url(../img/dateIco.png) right center no-repeat;
+    outline: 0;
+}
+
+/* 搜索区块 */
+.bui-search{
+    background: #f7f8fa;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+/* 商品图片上传 */
+.bui-upload{
+    border:1px solid #ccc;
+    padding: 10px;
+    background: #fff;
+}
+
+.bui-upload a {
+    display: inline-block;
+    color: #666;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.bui-upload-btn{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 42px;
+    height: 28px;
+    line-height: 99px;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
 }
